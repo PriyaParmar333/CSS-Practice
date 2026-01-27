@@ -1,0 +1,158 @@
+.container{
+    width:600px;
+    height:300px;
+    background-color: grey;
+    display:inline-grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    /* grid-template-columns: 100px 100px 100px 100px;
+    grid-template-columns: 200px 200px 200px; */
+    grid-template-rows: repeat(4,1fr); /*can also be written like - 1fr 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(3,1fr);
+    /* row-gap: 10px;
+    column-gap:10px; */
+    grid-gap: 10px;
+    /* GRID PROPERTIES */
+    /* justify-items: start; */
+     /* justify-items: end; */
+           /* justify-items: center; */
+      /* align-items: start; */
+       /* align-items: end; */
+           /* align-items:center; */
+           place-items:center;
+}
+.item{
+    width:100px;
+    height: 50px;
+    background-color: greenyellow;
+    text-align:center;
+    border:2px solid black;
+}
+.one {
+    /* grid-column-start:1;
+    grid-column-end:3; */
+    /* grid-column: 1/4; */
+    /* grid-column: 1/span 2; */
+    /* justify-self:start; */
+    place-self: center;
+}
+
+.two {
+    /* grid-row-start:1;
+    grid-row-end:3; */
+    /* grid-row: 1/span 2; */
+}
+
+.box {
+    height:100px;
+    width:300px;
+    background-color: pink;
+
+   
+    /* properties of an animation for color */
+    animation-name:fontColor;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count:3;
+    animation-direction: normal;
+
+    /* properties of an animation for width */
+    animation-name:fontWidth;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count:3;
+    animation-direction: normal;
+
+    /* animation shorthand */
+    animation: fontWidth 2s ease-in 0s  infinite normal;
+
+     /* properties of an animation for font */
+    animation-name:fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count:3;
+    animation-direction: normal;
+
+}
+
+/*Template of an animation*/
+@keyframes fontAnimation {
+    0% {
+        /* font-size: 20px; */
+        background-color: azure;
+    }
+    50% {
+        /* font-size: 40px; */
+        background-color: blueviolet;
+        /* border-radius:50%; */
+    }
+    80% {
+        background-color: green;
+    }
+    100% {
+        background-color: orange;
+    }
+
+}
+@keyframes fontColor {
+    from{
+        background-color: brown;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+@keyframes fontWidth {
+    from{
+        width:100px;
+    }
+    to{
+        width:600px;
+    }
+}
+
+h1 {
+    background-color: yellow;
+    border:2px solid black;
+}
+@media (width:400px)
+{
+    h1{
+        background-color: ORANGE;
+        color:white;
+    }
+    div{
+        height:100px;
+        width:200px;
+        background-color: brown;
+    
+    }
+}
+@media(min-width:450px)
+{
+    h1{
+        background-color: blanchedalmond;
+    }
+}
+@media(max-width:550px)
+{
+    h1{
+        background-color:olivedrab;
+    }
+}
+
+@media (min-width:200px) and (max-width:400px)
+{
+    h1{
+        background-color: purple;
+    }
+}
+@media(orientation:portrait){
+    h1{
+        background-color: azure;
+        color:brown;
+    }
+}
