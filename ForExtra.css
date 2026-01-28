@@ -1,0 +1,141 @@
+/* /* div{
+    background-color: lime;
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    margin:5px;
+    display:inline-block;
+}
+#third{
+    display: none; */
+
+/* #box{
+    height:150px;
+    width:300px;
+    background-color: grey;
+    border:5px dotted black;
+    margin:20px 1em 40px 2em;
+    padding:1em;
+}
+.box1{
+    height:100px;
+    width:100px;
+    background-color: pink;
+    border:2px solid black;
+    border-radius:50%;
+    display: inline-block;
+}
+li {
+    display:inline;
+}
+
+div{
+    height:50px;
+    width:50px;
+    background-color: black;
+    transition-duration:1s;
+}
+div:hover{
+    border-radius: 50%;
+    background-color: blanchedalmond;
+} */ 
+/* section{
+    margin-top: 100px; */
+
+
+/* div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+/*TRANSFORM*/
+/* #one {
+    transform: rotate(45deg);
+}
+#two {
+    transform: scale(0.5);
+}
+#three {
+    transform: translateX(100px);
+}
+
+#four {
+    transform: skew(30deg);
+}
+#five {
+    transform: rotate(40deg);
+    transform: skew(20deg);
+    transform: translate(50px,20px);
+    transform: scale(1.3);
+}
+#five:hover {
+    border-radius: 50%;
+    transition:1s;
+    background-color: aquamarine;
+    transition-delay:1s;
+} */ 
+ /* div {
+    height:100px;
+    width:100px;
+     text-align: center; 
+    background-color:#7aa874;
+    margin:20px;
+    border:3px solid black;
+    display:inline-block; */
+
+    /* box-shadow:2px 2px 10px red;
+    background-image:url("unsplash.jpg.jpg");
+    background-size:contain;
+    box-shadow:2px 2px 10px black;*/
+} 
+ #static {
+    background-color: yellow; 
+    position:static;  
+    top:100px;
+    left:100px;
+ }
+ #relative {
+     background-color: yellow; 
+    position:relative;  
+    top:100px;
+    left:100px;
+ }
+ #absolute{
+    background-color: yellow; 
+    position: absolute;
+     top:100px;
+    left:100px;
+ }
+ #fixed {
+     background-color: yellow; 
+    position: fixed;
+     top:100px;
+    left:100px;
+
+ }
+ #container {
+    height:600px;
+    width:80%;
+    background-color: azure;
+    margin:10px auto;
+    border:2px solid black;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    /* flex-wrap:wrap; */
+    align-items:baseline;
+ }
+ h1{
+    text-align:center;
+ }
+ #container div{
+    height:100px;
+    width:300px;
+    color:white;
+    text-align:center;
+    font-size:1.5em;
+    
+    
+ }

@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  background: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color:rgb(219, 214, 219);
+}
+
+header img {
+  height: 40px;
+}
+
+header .signin {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.info-section {
+  flex: 2;
+  padding-right: 40px;
+}
+
+.info-block {
+  margin-bottom: 150px;
+}
+
+.info-block img {
+  float: left;
+  margin-right: 15px;
+  width: 150px;
+  height: auto;
+}
+
+.info-block h3 {
+  margin: 0 0 5px;
+}
+
+.info-block p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.signup-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(209, 204, 204);
+}
+
+.signup-form label {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.signup-form input,
+.signup-form select {
+  padding: 8px;
+  margin-top: 4px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.name-fields,
+.birthday-fields {
+  display: flex;
+  gap: 5px;
+}
+
+.terms {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #4285f4;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #357ae8;
+}
